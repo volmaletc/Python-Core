@@ -1,0 +1,24 @@
+# CW1
+a = input ("Enter first number: ")
+b = input ("Enter second number: ")
+
+if a > b:
+    print("First number biggest then second")
+else:
+    print("Second number biggest the first")
+
+
+# CW1
+a = int(input ("Enter number: "))
+
+if a % 2 == 1:
+    print("Непарне")
+else:
+    print("Парне")
+
+# CW3
+a = int(input("Enter int number: "))
+f = 1
+for i in range(1, (a+1)):
+    f *= i
+print(f)

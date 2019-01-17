@@ -1,0 +1,5 @@
+def areYouPlayingBanjo(name):
+    name_list = list(name)
+    if name_list[0] == "R" or name_list[0] == "r":
+        return name + " plays banjo" 
+    return name + " does not play banjo"
