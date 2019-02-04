@@ -1,0 +1,5 @@
+def double_char(s):
+    new_s = []
+    for i in list(s):
+        new_s.append(i * 2)
+    return ''.join(new_s)
