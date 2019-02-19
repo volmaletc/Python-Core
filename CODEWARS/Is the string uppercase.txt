@@ -1,0 +1,6 @@
+def is_uppercase(inp)
+    for i in range(len(list(inp)))
+        if inp.isupper()
+            return True
+        else
+            return False

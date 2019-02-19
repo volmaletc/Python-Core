@@ -1,0 +1,5 @@
+def shorten_to_date(long_date):
+    long_date = long_date.split(",")
+    del long_date[-1]
+    long_date =' '.join(long_date)
+    return long_date
